@@ -1,1 +1,29 @@
+REQUISITOS FUNCIONAIS (RF)
+[RF-001] Botão para realizar LOGIN
+Descrição: O sistema deve permitir que o usuario da Secretária realize o login quando for editar o cardapio.
+Prioridade: Alta
+Entrada: E-mail válido e senha
+Processamento: Validar credenciais no banco de dados
+Saída: Acesso ao sistema ou mensagem de erro
+Regras de Negócio:
 
+Senha deve ter no mínimo 8 caracteres
+Após 3 tentativas incorretas, bloquear por 15 minutos
+Manter sessão ativa por 2 horas
+Atores: Usuário registrados
+
+[RF-002] Login de Usuário Especifico
+Descrição: O sistema deve permitir que usuários cadastrados façam login usando e-mail e senha
+Prioridade: Alta
+Entrada: E-mail válido e senha
+Processamento: Validar credenciais no banco de dados
+Saída: Acesso ao sistema ou mensagem de erro
+Regras de Negócio:
+
+Senha deve ter no mínimo 8 caracteres
+Após 3 tentativas incorretas, bloquear por 15 minutos
+Manter sessão ativa por 2 horas
+Atores: Usuário registrados
+
+
+REQUISITOS NÃO FUNCIONAIS (RNF)
